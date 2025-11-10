@@ -24,5 +24,6 @@ vim.cmd("set splitright")
 vim.cmd("set wildmenu")
 vim.cmd("set nocompatible")
 vim.cmd("set hidden")
+vim.cmd("set cursorline")
 
 vim.cmd("colorscheme catppuccin")
