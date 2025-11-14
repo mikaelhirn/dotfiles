@@ -15,7 +15,8 @@ vim.keymap.set('n', '<leader>ff', builtin.find_files, { desc = 'Telescope find f
 vim.keymap.set('n', '<leader>fg', builtin.live_grep, { desc = 'Telescope live grep' })
 
 vim.cmd("set shiftwidth=4")
-vim.cmd("set tabstop=4")
+vim.cmd("set tabstop=8")
+vim.cmd("set expandtab")
 vim.cmd("set softtabstop=4")
 vim.cmd("set relativenumber")
 vim.cmd("set nowrap")
