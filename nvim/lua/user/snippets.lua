@@ -11,3 +11,17 @@ ls.add_snippets("all", {
         t({"","}"})
     })
 })
+
+-- php add action
+ls.add_snippets("all", {
+    s("aa", {
+        t("add_action( '"), i(1), t("', '"), i(2), t("' );")
+    })
+})
+--
+-- php add filter
+ls.add_snippets("all", {
+    s("af", {
+        t("add_filter( '"), i(1), t("', '"), i(2), t("' );")
+    })
+})
