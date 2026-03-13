@@ -20,5 +20,6 @@ vim.cmd("set wildmenu")
 vim.cmd("set nocompatible")
 vim.cmd("set hidden")
 vim.cmd("set cursorline")
+vim.cmd("set listchars=eol:↵")
 
 vim.cmd("colorscheme catppuccin")
